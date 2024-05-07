@@ -1,3 +1,20 @@
+@use '@carbon/react';
+@use 'home/landing-page';
+@use 'repos/repo-page';
+@use '../components/PageHeader/page-header';
+
+@media (min-width: 42rem) {
+  .cds--grid--no-gutter {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.cds--content {
+  margin-top: 3rem;
+  background: var(--cds-background);
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
